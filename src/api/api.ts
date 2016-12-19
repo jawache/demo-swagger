@@ -1,1 +1,1 @@
-export * from './NotificationsApi';
+export * from './Notifications2Api';
