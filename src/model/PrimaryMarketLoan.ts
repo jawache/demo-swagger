@@ -24,16 +24,24 @@
 
 import * as models from './models';
 
-export interface NotificationMessage {
+export interface PrimaryMarketLoan {
     id: string;
 
-    action: string;
+    name?: string;
 
-    title: string;
+    currency?: string;
 
-    url: string;
+    amountRequired?: number;
 
-    body: string;
+    amountBid?: number;
+
+    auctionStart?: Date;
+
+    timeRemaining?: string;
+
+    fixedRate?: string;
+
+    interestOnly?: string;
 
     dateCreated: Date;
 
